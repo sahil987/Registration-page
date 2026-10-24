@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club</title>
+    <link rel="icon" href="Coding-Club.png">
+</head>
+<body>
+
+<nav>
+    <a href="event">Event</a> |
+    <a href="register.html">Register</a> |
+</nav>
+
+<h1><i>Coding Club</i></h1>
+<h2><i>Upcoming Events</i></h2>
+
+<table border="1">
+    <caption>Club Events</caption>
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>HTML Workshop</td>
+            <td>12 Nov</td>
+            <td>Lab 1</td>
+        </tr>
+        <tr>
+            <td>Hackathon</td>
+            <td>20 Nov</td>
+            <td>Seminar Hall</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="3">Total events: 2</td></tr>
+    </tfoot>
+</table>
+
+<h2 id="register">Register</h2>
+
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Your name" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" required><br><br>
+
+    <label>Password:</label>
+    <input type="password" required><br><br>
+
+    <label>Date of birth:</label>
+    <input type="date"><br><br>
+
+    <label>Phone:</label>
+    <input type="tel"><br><br>
+
+    Gender:
+    <input type="radio" name="gender">Male
+    
+
+    Interests:
+    <input type="checkbox">Web
+    <input type="checkbox">DSA<br><br>
+
+    Branch:
+    <select>
+        <option>CSE</option>
+    </select><br><br>
+
+    <label>Why do you want to join?</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<footer>
+    <p>&copy; 2026 Coding Club</p>
+</footer>
+
+</body>
+</html>
